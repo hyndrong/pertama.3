@@ -7,7 +7,7 @@
         position: absolute; /* Mengatur posisi video menjadi absolut */
         top: 50%; /* Mengatur posisi video di tengah vertikal */
         left: 50%; /* Mengatur posisi video di tengah horizontal */
-        min-width: 100%; /* Mengatur lebar minimum video menjadi 100% */
+        max-width: 100%; /* Mengatur lebar minimum video menjadi 100% */
         min-height: 100%; /* Mengatur tinggi minimum video menjadi 100% */
         width: auto; /* Mengatur lebar video secara otomatis */
         height: auto; /* Mengatur tinggi video secara otomatis */
