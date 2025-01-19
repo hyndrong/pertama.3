@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+    
+    .video-background {
+        position: absolute; /* Mengatur posisi video menjadi absolut */
+        top: 50%; /* Mengatur posisi video di tengah vertikal */
+        left: 50%; /* Mengatur posisi video di tengah horizontal */
+        min-width: 100%; /* Mengatur lebar minimum video menjadi 100% */
+        min-height: 100%; /* Mengatur tinggi minimum video menjadi 100% */
+        width: auto; /* Mengatur lebar video secara otomatis */
+        height: auto; /* Mengatur tinggi video secara otomatis */
+        z-index: -1; /* Menempatkan video di belakang konten lainnya */
+        transform: translate(-50%, -50%); /* Menggeser video ke tengah */
+    }
+  
+  body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%; /* Mengatur tinggi body dan html menjadi 100% */
+    overflow: hidden; /* Menghilangkan scrollbar */
+}
+
+
+.content {
+    position: relative; /* Mengatur posisi konten menjadi relatif */
+    z-index: 1; /* Menempatkan konten di atas video */
+    color: white; /* Mengatur warna teks menjadi putih */
+    text-align: center; /* Mengatur teks di tengah */
+    padding: 20px; /* Menambahkan padding */
+}
+  body {
+    display: flex; /* Menggunakan Flexbox */
+    flex-direction: column; /* Mengatur arah konten menjadi kolom */
+    justify-content: center; /* Mengatur konten secara vertikal di tengah */
+    align-items: center; /* Mengatur konten secara horizontal di tengah */
+    height: 100vh; /* Mengatur tinggi body menjadi 100% dari viewport height */
+    margin: 0; /* Menghilangkan margin default */
+    text-align: center; /* Mengatur teks di tengah */
+}
+.text-box {
+    width: 80%
+}
+h1, p, h3 {
+    border-color: rgb(255, 255, 255);
+}
+
+img {
+    max-width: 50%; /* Memastikan gambar responsif */
+    height: 150; /* Memastikan aspek rasio gambar tetap terjaga */
+    margin: 10px 0; /* Menambahkan margin atas dan bawah untuk gambar */
+}
+
+h1, p, h3 {
+    margin: 5px 0; /* Menambahkan margin atas dan bawah untuk heading dan paragraf */
+    color:lightblue
+}
+h3 {
+    font-size: larger;
+}
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(172, 172, 172);
+    font-weight: 700;
+    background: #1134a5;
+    padding: 0.5em 2em;
+    border-radius: 60px;
+    margin: 1em 0;
+    transition: 0.3s;
+}
